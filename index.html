@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Sustentável</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🌱 Agro Sustentável e Tecnologia no Campo </h1>
+  <p>Conscientização ambiental e agricultura responsável</p>
+</header>
+
+<nav>
+  <a href="#" onclick="mostrar('home')">Início</a>
+  <a href="#" onclick="mostrar('quiz')">Quiz</a>
+  <a href="#" onclick="mostrar('energia')">Energia</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="conteudo">
+
+  <section class="banner">
+    <img src="sustentavel.jpg" alt="Imagem principal">
+  </section>
+
+  <h2>🌿 Agricultura Consciente</h2>
+
+  <p>
+    A agricultura consciente é uma forma de produzir alimentos respeitando a natureza e usando os recursos de maneira responsável. Ela busca equilibrar produção e preservação ambiental, cuidando do solo, da água e da biodiversidade.
+
+Com o uso de tecnologias sustentáveis e práticas responsáveis, é possível aumentar a produção sem prejudicar o meio ambiente e garantindo alimentos de qualidade.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+  <img src="agua.jpg" alt="Uso consciente da água">
+  <h3>Economia de Água</h3>
+  <p>
+    O uso racional da água reduz desperdícios e ajuda
+    a preservar esse recurso essencial para a agricultura.
+  </p>
+</div>
+
+<div class="card">
+  <img src="plantação.jpg" alt="Reciclagem">
+  <h3>Reciclagem no Campo</h3>
+  <p>
+    A reciclagem reduz a geração de resíduos e contribui
+    para uma produção mais sustentável.
+  </p>
+</div>
+
+<div class="card">
+  <img src="agricultura.jpg" alt="Agricultura moderna">
+  <h3>Agricultura Moderna</h3>
+  <p>
+    Máquinas mais eficientes e energias renováveis ajudam
+    a diminuir a emissão de gases poluentes e aumentam a sustentabilidade.
+  </p>
+</div>
+
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz" class="conteudo" style="display:none;">
+  <h2>❓ Quiz Ambiental</h2>
+
+  <p>Qual energia é renovável?</p>
+
+  <button onclick="responder('certo')">Solar</button>
+  <button onclick="responder('errado')">Carvão</button>
+  <button onclick="responder('errado')">Petróleo</button>
+
+  <p id="resultadoQuiz"></p>
+</section>
+
+<!-- ENERGIA -->
+<section id="energia" class="conteudo" style="display:none;">
+  <h2>☀️ Energias Renováveis</h2>
+
+  <p>
+    A energia renovável é produzida por fontes naturais que se renovam constantemente, como o sol e o vento.
+    </p>
+    <h2>💡 Ideia Inovadora: Estufas Inteligentes com Energia Solar</h2>
+    
+
+
+    Uma ideia inteligente no agro sustentáve é usa-la em estufas inteligentes com painéis solares que alimentam sistemas automáticos de irrigação, economizando água e energia. 
+  </p>
+</section>
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
